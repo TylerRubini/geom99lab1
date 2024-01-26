@@ -43,15 +43,100 @@ function initMap() {
     { lat: 44.663905, lng: -63.569647 },
   ];
   const alderneyFerry = new google.maps.Polyline({
-    path: alderneyCoordinates,
+    path: woodsideCoordinates,
+    geodesic: true,
+    strokeColor: "#FF0000",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
+  const tancookFerry = new google.maps.Polyline({
+    path: tancookCoordinates,
     geodesic: true,
     strokeColor: "#27AE60",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
+  const tancookCoordinates = [
+    { lat: 44.537501, lng: -64.238176 },
+    { lat: 44.523921, lng: -64.234315 },
+    { lat: 44.464513, lng: -64.171649 },
+  ];
+  const freeportFerry = new google.maps.Polyline({
+    path: freeportCoordinates,
+    geodesic: true,
+    strokeColor: "#27AE60",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
+  const freeportCoordinates = [
+    { lat: 44.273902, lng: -66.335594 },
+    { lat: 44.265281, lng: -66.347426 },
+  ];
+  const tivertonFerry = new google.maps.Polyline({
+    path: tivertonCoordinates,
+    geodesic: true,
+    strokeColor: "#27AE60",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
+  const tivertonCoordinates = [
+    { lat: 44.395987, lng: -66.213703 },
+    { lat: 44.395809, lng: -66.204813 },
+  ];
+  const isaacsHarbourFerry = new google.maps.Polyline({
+    path: isaacsHarbourCoordinates,
+    geodesic: true,
+    strokeColor: "#27AE60",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
+  const isaacsHarbourCoordinates = [
+    { lat: 45.169236, lng: -61.703010 },
+    { lat: 45.174609, lng: -61.697198 },
+  ];
+  const laHaveFerry = new google.maps.Polyline({
+    path: laHaveCoordinates,
+    geodesic: true,
+    strokeColor: "#27AE60",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
+  const laHaveCoordinates = [
+    { lat: 44.295978, lng: -64.361612 },
+    { lat: 44.302690, lng: -64.359350 },
+  ];
+  const narrowsFerry = new google.maps.Polyline({
+    path: narrowsCoordinates,
+    geodesic: true,
+    strokeColor: "#27AE60",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
+    const narrowsCoordinates = [
+    { lat: 45.992588, lng: -60.985109 },
+    { lat: 45.992808, lng: -60.985848 }, , 
+  ];
+  const englishtownFerry = new google.maps.Polyline({
+    path: englishtownCoordinates,
+    geodesic: true,
+    strokeColor: "#27AE60",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
+  const englishtownCoordinates = [
+    { lat: 46.289047, lng: -60.539972 },
+    { lat: 46.289795, lng: -60.541306 },
+  ];
 
   woodsideFerry.setMap(map);
   alderneyFerry.setMap(map);
+  tancookFerry.setMap(map);
+  freeportFerry.setMap(map);
+  tivertonFerry.setMap(map);
+  isaacsHarbourFerry.setMap(map);
+  laHaveFerry.setMap(map);
+  narrowsFerry.setMap(map);
+  englishtownFerry.setMap(map);
 }
 
 window.initMap = initMap;
