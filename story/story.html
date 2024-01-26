@@ -5,6 +5,7 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
     <style>
+        /* Set map size to 75% to allow space for legend and title below */
         #map {
           height: 75%;
         }
@@ -34,6 +35,7 @@
           border-collapse: collapse;
           margin-left: auto;
           margin-right: auto;
+        /* Used 3 CSS IDs to fill table entries with colour representing each ferry type */
         #ferry1 {
           background-color: #FF0000;
         }
@@ -44,6 +46,7 @@
           background-color: #800080;
         }
     </style>
+    
     <script>
 /* Based off following templates:
 https://developers.google.com/maps/documentation/javascript/examples/map-simple
@@ -54,7 +57,8 @@ function initMap() {
       center: { lat: 45.156103, lng: -62.900508 },
       zoom: 7,
   });
-  
+  // The next ~150 lines could probably be condensed with the use of loops and variables for greater efficiency
+  // I would have preferred to colour-code the markers, but I couldn't get that working so I went with text labels instead
   new google.maps.Marker({
     position: { lat: 44.650041, lng: -63.571149 },
     map,
@@ -213,15 +217,16 @@ function initMap() {
   narrowsFerry.setMap(map);
   englishtownFerry.setMap(map);
 }
-
 window.initMap = initMap;
     </script>
   </head>
+  
   <body>
     <div id="map"></div>
-
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
+    
     <h2>Public Ferries of Nova Scotia</h2>
     <h4>(Hover over icon on map to see route name)</h4>
 <table>
