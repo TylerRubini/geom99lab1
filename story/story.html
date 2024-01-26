@@ -38,6 +38,17 @@ function initMap() {
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
+  const alderneyCoordinates = [
+    { lat: 44.650041, lng: -63.571149 },
+    { lat: 44.663905, lng: -63.569647 },
+  ];
+  const alderneyFerry = new google.maps.Polyline({
+    path: alderneyCoordinates,
+    geodesic: true,
+    strokeColor: "#27AE60",
+    strokeOpacity: 1.0,
+    strokeWeight: 1.5,
+  });
 
   woodsideFerry.setMap(map);
 }
