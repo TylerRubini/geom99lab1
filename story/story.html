@@ -119,6 +119,12 @@ function initMap() {
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
+  new google.maps.Marker({
+    position: { lat: 44.295978, lng: -64.361612 },
+    map,
+    title: "LaHave Ferry",
+    label: "L",
+  });
   const laHaveCoordinates = [
     { lat: 44.295978, lng: -64.361612 },
     { lat: 44.302690, lng: -64.359350 },
@@ -130,9 +136,15 @@ function initMap() {
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
+  new google.maps.Marker({
+    position: { lat: 45.992588, lng: -60.985109 },
+    map,
+    title: "Little Narrows Ferry",
+    label: "N",
+  });
   const narrowsCoordinates = [
     { lat: 45.992588, lng: -60.985109 },
-    { lat: 45.992808, lng: -60.985848 }, , 
+    { lat: 45.992808, lng: -60.985848 }, 
   ];
   const narrowsFerry = new google.maps.Polyline({
     path: narrowsCoordinates,
@@ -140,6 +152,12 @@ function initMap() {
     strokeColor: "#800080",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
+  });
+  new google.maps.Marker({
+    position: { lat: 46.289047, lng: -60.539972 },
+    map,
+    title: "Englishtown Ferry",
+    label: "E",
   });
   const englishtownCoordinates = [
     { lat: 46.289047, lng: -60.539972 },
