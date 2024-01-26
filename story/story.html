@@ -25,19 +25,7 @@ function initMap() {
   new google.maps.Marker({
     position: { lat: 44.650041, lng: -63.571149 },
     map,
-    title: "Halifax Ferry Terminal",
-    label: "H",
-  });
-  new google.maps.Marker({
-    position: { lat: 44.648726, lng: -63.549705 },
-    map,
-    title: "Woodside Ferry Terminal",
-    label: "H",
-  });
-  new google.maps.Marker({
-    position: { lat: 44.663905, lng: -63.569647 },
-    map,
-    title: "Alderney Ferry Terminal",
+    title: "Halifax Transit Ferries",
     label: "H",
   });
   const woodsideCoordinates = [
@@ -62,6 +50,12 @@ function initMap() {
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
+  new google.maps.Marker({
+    position: { lat: 44.537501, lng: -64.238176 },
+    map,
+    title: "Tancook Island Ferry",
+    label: "T",
+  });
   const tancookCoordinates = [
     { lat: 44.537501, lng: -64.238176 },
     { lat: 44.523921, lng: -64.234315 },
@@ -74,6 +68,12 @@ function initMap() {
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
+  new google.maps.Marker({
+    position: { lat: 44.273902, lng: -66.335594 },
+    map,
+    title: "Grand Passage Ferry",
+    label: "G",
+  });
   const freeportCoordinates = [
     { lat: 44.273902, lng: -66.335594 },
     { lat: 44.265281, lng: -66.347426 },
@@ -85,6 +85,12 @@ function initMap() {
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
+  new google.maps.Marker({
+    position: { lat: 44.395987, lng: -66.213703 },
+    map,
+    title: "Petit Passage Ferry",
+    label: "P",
+  });
   const tivertonCoordinates = [
     { lat: 44.395987, lng: -66.213703 },
     { lat: 44.395809, lng: -66.204813 },
@@ -95,6 +101,12 @@ function initMap() {
     strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
+  });
+  new google.maps.Marker({
+    position: { lat: 45.169236, lng: -61.703010 },
+    map,
+    title: "Country Harbour Ferry",
+    label: "C",
   });
   const isaacsHarbourCoordinates = [
     { lat: 45.169236, lng: -61.703010 },
