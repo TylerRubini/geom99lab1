@@ -74,7 +74,7 @@
             {
                "distance" : 
                {
-                  "text" : "12.9 km",
+                  "text" : "8.0 mi",
                   "value" : 12868
                },
                "duration" : 
@@ -99,7 +99,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.1 km",
+                        "text" : "443 ft",
                         "value" : 135
                      },
                      "duration" : 
@@ -127,7 +127,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.6 km",
+                        "text" : "0.4 mi",
                         "value" : 634
                      },
                      "duration" : 
@@ -156,7 +156,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "6.8 km",
+                        "text" : "4.2 mi",
                         "value" : 6777
                      },
                      "duration" : 
@@ -184,7 +184,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "4.8 km",
+                        "text" : "3.0 mi",
                         "value" : 4829
                      },
                      "duration" : 
@@ -213,7 +213,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.3 km",
+                        "text" : "0.2 mi",
                         "value" : 291
                      },
                      "duration" : 
@@ -242,7 +242,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 202
                      },
                      "duration" : 
@@ -275,7 +275,7 @@
             {
                "distance" : 
                {
-                  "text" : "4.0 km",
+                  "text" : "2.5 mi",
                   "value" : 4025
                },
                "duration" : 
@@ -300,7 +300,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 206
                      },
                      "duration" : 
@@ -328,7 +328,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 237
                      },
                      "duration" : 
@@ -357,7 +357,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.4 km",
+                        "text" : "0.3 mi",
                         "value" : 421
                      },
                      "duration" : 
@@ -386,7 +386,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "2.3 km",
+                        "text" : "1.4 mi",
                         "value" : 2252
                      },
                      "duration" : 
@@ -414,7 +414,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.5 km",
+                        "text" : "0.3 mi",
                         "value" : 514
                      },
                      "duration" : 
@@ -443,7 +443,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.3 km",
+                        "text" : "0.2 mi",
                         "value" : 314
                      },
                      "duration" : 
@@ -472,7 +472,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "81 m",
+                        "text" : "266 ft",
                         "value" : 81
                      },
                      "duration" : 
@@ -505,7 +505,7 @@
             {
                "distance" : 
                {
-                  "text" : "3.5 km",
+                  "text" : "2.2 mi",
                   "value" : 3486
                },
                "duration" : 
@@ -530,7 +530,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 169
                      },
                      "duration" : 
@@ -558,7 +558,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.3 km",
+                        "text" : "0.2 mi",
                         "value" : 315
                      },
                      "duration" : 
@@ -587,7 +587,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 240
                      },
                      "duration" : 
@@ -616,7 +616,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "2.5 km",
+                        "text" : "1.5 mi",
                         "value" : 2481
                      },
                      "duration" : 
@@ -645,7 +645,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 160
                      },
                      "duration" : 
@@ -674,7 +674,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "55 m",
+                        "text" : "180 ft",
                         "value" : 55
                      },
                      "duration" : 
@@ -703,7 +703,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "22 m",
+                        "text" : "72 ft",
                         "value" : 22
                      },
                      "duration" : 
@@ -732,7 +732,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "19 m",
+                        "text" : "62 ft",
                         "value" : 19
                      },
                      "duration" : 
@@ -761,7 +761,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "25 m",
+                        "text" : "82 ft",
                         "value" : 25
                      },
                      "duration" : 
@@ -794,7 +794,7 @@
             {
                "distance" : 
                {
-                  "text" : "5.2 km",
+                  "text" : "3.2 mi",
                   "value" : 5158
                },
                "duration" : 
@@ -819,7 +819,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "25 m",
+                        "text" : "82 ft",
                         "value" : 25
                      },
                      "duration" : 
@@ -847,7 +847,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "19 m",
+                        "text" : "62 ft",
                         "value" : 19
                      },
                      "duration" : 
@@ -876,7 +876,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "22 m",
+                        "text" : "72 ft",
                         "value" : 22
                      },
                      "duration" : 
@@ -905,7 +905,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "55 m",
+                        "text" : "180 ft",
                         "value" : 55
                      },
                      "duration" : 
@@ -934,7 +934,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 160
                      },
                      "duration" : 
@@ -963,7 +963,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "3.6 km",
+                        "text" : "2.2 mi",
                         "value" : 3558
                      },
                      "duration" : 
@@ -992,7 +992,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.6 km",
+                        "text" : "0.4 mi",
                         "value" : 637
                      },
                      "duration" : 
@@ -1021,7 +1021,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.4 km",
+                        "text" : "0.3 mi",
                         "value" : 416
                      },
                      "duration" : 
@@ -1050,7 +1050,7 @@
                   {
                      "distance" : 
                      {
-                        "text" : "0.3 km",
+                        "text" : "0.2 mi",
                         "value" : 266
                      },
                      "duration" : 
