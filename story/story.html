@@ -6,13 +6,25 @@
 
     <style>
         #map {
-          height: 80%;
+          height: 75%;
         }
         html,
         body {
           height: 100%;
           margin: 0;
           padding: 0;
+        }
+        table {
+          border-collapse: collapse;
+        }
+        #ferry1 {
+          background-color: #FF0000;
+        }
+        #ferry2 {
+          background-color: #008000;
+        }
+        #ferry3 {
+          background-color: #800080;
         }
     </style>
     <script>
@@ -200,15 +212,15 @@ window.initMap = initMap;
     <th>Type of Ferry</th>
   </tr>
   <tr>
-    <td> </td>
+    <td class="ferry1"> </td>
     <td>Halifax Transit Ferry (self-propelled)</td>
   </tr>
   <tr>
-    <td> </td>
+    <td class="ferry2"> </td>
     <td>Provincial Ferry (self-propelled)</td>
   </tr>
   <tr>
-    <td> </td>
+    <td class="ferry3"> </td>
     <td>Provincial Ferry (cable)</td>
   </tr>
 </table>
