@@ -57,7 +57,7 @@ function initMap() {
   const tancookFerry = new google.maps.Polyline({
     path: tancookCoordinates,
     geodesic: true,
-    strokeColor: "#27AE60",
+    strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
@@ -68,7 +68,7 @@ function initMap() {
   const freeportFerry = new google.maps.Polyline({
     path: freeportCoordinates,
     geodesic: true,
-    strokeColor: "#27AE60",
+    strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
@@ -79,7 +79,7 @@ function initMap() {
   const tivertonFerry = new google.maps.Polyline({
     path: tivertonCoordinates,
     geodesic: true,
-    strokeColor: "#27AE60",
+    strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
@@ -90,7 +90,7 @@ function initMap() {
   const isaacsHarbourFerry = new google.maps.Polyline({
     path: isaacsHarbourCoordinates,
     geodesic: true,
-    strokeColor: "#27AE60",
+    strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
@@ -101,7 +101,7 @@ function initMap() {
   const laHaveFerry = new google.maps.Polyline({
     path: laHaveCoordinates,
     geodesic: true,
-    strokeColor: "#27AE60",
+    strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
@@ -112,7 +112,7 @@ function initMap() {
   const narrowsFerry = new google.maps.Polyline({
     path: narrowsCoordinates,
     geodesic: true,
-    strokeColor: "#27AE60",
+    strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
@@ -123,12 +123,19 @@ function initMap() {
   const englishtownFerry = new google.maps.Polyline({
     path: englishtownCoordinates,
     geodesic: true,
-    strokeColor: "#27AE60",
+    strokeColor: "#008000",
     strokeOpacity: 1.0,
     strokeWeight: 1.5,
   });
   woodsideFerry.setMap(map);
   alderneyFerry.setMap(map);
+  tancookFerry.setMap(map);
+  freeportFerry.setMap(map);
+  tivertonFerry.setMap(map);
+  isaacsHarbourFerry.setMap(map);
+  laHaveFerry.setMap(map);
+  narrowsFerry.setMap(map);
+  englishtownFerry.setMap(map);
 }
 
 window.initMap = initMap;
