@@ -20,10 +20,11 @@
   // Request needed libraries.
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-  const map = new Map(document.getElementById("map"), {
-      center: { lat: 43.756775, lng: -79.400978 },
-      zoom: 9,
-      mapId: "4504f8b37365c3d0"
+  let map;
+    function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 43.756775, lng: -79.400978 },
+        zoom: 9,
   });
   const marker = new AdvancedMarkerElement({
     map,
