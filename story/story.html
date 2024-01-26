@@ -19,18 +19,13 @@
 /* Based off following templates:
 https://developers.google.com/maps/documentation/javascript/examples/map-simple
 https://developers.google.com/maps/documentation/javascript/shapes#polylines
-https://developers.google.com/maps/documentation/javascript/examples/marker-labels
-*/
+https://developers.google.com/maps/documentation/javascript/examples/marker-labels */
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: 45.156103, lng: -62.900508 },
       zoom: 7,
   });
   
-  marker.addListener("click", () => {
-    map.setZoom(8);
-    map.setCenter(marker.getPosition());
-  });
   new google.maps.Marker({
     position: { lat: 44.650041, lng: -63.571149 },
     map,
