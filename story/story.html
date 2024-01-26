@@ -14,9 +14,13 @@
           margin: 0;
           padding: 0;
         }
-        table {
-          border-collapse: collapse;
+        table, tr, td {
+          border: 1px solid;
+          text-align: center;
         }
+        table {
+          width: 40%
+          border-collapse: collapse;
         #ferry1 {
           background-color: #FF0000;
         }
@@ -206,7 +210,7 @@ window.initMap = initMap;
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
     <h2>Public Ferries of Nova Scotia</h2>
-<table style="width:30%">
+<table>
   <tr>
     <th>Line Colour</th>
     <th>Type of Ferry</th>
