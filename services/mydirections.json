@@ -1,1 +1,1099 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJC_Ixuw-eLIgRDfnjQs89hmY",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "shopping_mall"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJV0VGY4ObLIgRjwYWYLtuwDU",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "shopping_mall"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJz2jkjcabLIgRVAz_rmm7Lxs",
+         "types" : 
+         [
+            "establishment",
+            "movie_theater",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJyUvvCUiZLIgRa2sbLphnhzY",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "shopping_mall"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJb75o1_WYLIgRW2T4XWN9GMI",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "shopping_mall"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 43.32931019999999,
+               "lng" : -79.7674643
+            },
+            "southwest" : 
+            {
+               "lat" : 43.2305937,
+               "lng" : -79.892684
+            }
+         },
+         "copyrights" : "Map data ©2024 Google",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "12.9 km",
+                  "value" : 12868
+               },
+               "duration" : 
+               {
+                  "text" : "20 mins",
+                  "value" : 1226
+               },
+               "end_address" : "2 King St W, Hamilton, ON L8P 1A1, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.2573349,
+                  "lng" : -79.8713846
+               },
+               "start_address" : "900 Maple Ave, Burlington, ON L7S 2J8, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.3286746,
+                  "lng" : -79.82196739999999
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 135
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.329141,
+                        "lng" : -79.8204264
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eFairview St\u003c/b\u003e toward \u003cb\u003eMaple Ave\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "esmgGhfefNWiAUkAOw@I]UgA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.3286746,
+                        "lng" : -79.82196739999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 634
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 90
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.3267591,
+                        "lng" : -79.82692730000001
+                     },
+                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e at \u003cb\u003eMaple Ave\u003c/b\u003e",
+                     "maneuver" : "uturn-left",
+                     "polyline" : 
+                     {
+                        "points" : "cvmgGt|dfNG[YLFZVdAXpA\\vARbAt@pDJ`@^jBd@jBZtA@Dl@xB|@~B\\p@Xl@fAnB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.329141,
+                        "lng" : -79.8204264
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "6.8 km",
+                        "value" : 6777
+                     },
+                     "duration" : 
+                     {
+                        "text" : "9 mins",
+                        "value" : 544
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.293641,
+                        "lng" : -79.8887197
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003ePlains Rd E\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ggmgGheffNx@hARXn@t@`@`@f@b@BB\\Vh@b@`@\\\\VTTdAfATVl@r@TX\\b@DDNRx@hAp@~@vAzBnAdBNTb@p@LRHLv@hAv@hAX^TNt@jAl@`Ad@r@l@|@RXn@~@p@bAdCtDLPXb@`AxAlAjBNRZd@nAlBx@nADFz@nAbA~AhA`BT\\\\f@p@`ARXRZr@bAd@r@p@~@PXb@n@jFrHl@z@r@bAjAbB|@pAfBnC|@nArEvG`@j@NRn@`A`@f@HJf@p@\\f@~AzBZb@vApB`B~Bf@r@Z`@j@x@vAvBpAjB`B`CdA|Ap@`A|@pAr@bA@B~AxBX`@hAdBvAnBbAtAd@r@fA~APVPV`@l@j@z@b@l@p@~@rApBf@t@|@nAv@dAr@`AFHvApB`@l@l@~@j@v@f@p@FFz@bAJLv@|@NPVXVZpAtAbAjAX\\z@`AfApAbAnAp@v@TVRVZ\\NNLJNNnBhB`AbAHJlAzA\\d@^j@j@~@j@fA^x@f@fAJTVn@x@rBjA|CNb@AL@F?BDJL`@Nl@ZpAFVF\\BRF\\Jz@@BXnELtA@xACpAEfBIzAABKfAUfBYzAId@Kj@ABKj@ADGZCJ?BOr@Kn@UfAa@|B{@jEQ^gBzIs@vE]|B[`CY`CIn@S|AIfAAPAR@N"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.3267591,
+                        "lng" : -79.82692730000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.8 km",
+                        "value" : 4829
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 448
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.25918009999999,
+                        "lng" : -79.8679667
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eYork Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "gxfgGngrfN?@?T@RBRBRFZNp@HTHRLTLP?@FFHHPNXRPFJDRDRDTBVBx@Bb@@x@BpCHpBFrANZFb@JxAh@bCrAJFj@Z@@n@Z~BbA|@j@fAf@NF^PXHB?l@Ht@D`@AT?b@EnDi@PCbGiAbASPCr@OzEeAzCo@x@YVIP?PChBa@`@Il@QlA]PGb@KDChBo@XM~@c@zAw@|JkG~@i@TMVMxCwAjDaB|As@VKHAHAREv@Ij@I~@QdAYh@OdAY@AtBi@TINB@?XE`@Kt@QjBg@b@Gh@e@h@s@T]lAoBNY~@gB`AkBlBeD`@}@t@iBvD{G~BiETc@b@y@dBmDt@yAl@mAt@{Az@_Bv@sA~BcE\\i@pDyGNu@TeA?Ar@eEDSTuAx@aFL{@@k@?]AUAUS}C"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.293641,
+                        "lng" : -79.8887197
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 291
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 78
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.256687,
+                        "lng" : -79.8690589
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eJames St N\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{``gGxenfNbAZhA^ZLz@ZpAb@NFPFdA\\|@VRH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.25918009999999,
+                        "lng" : -79.8679667
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 202
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2573349,
+                        "lng" : -79.8713846
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eHwy 8\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "iq_gGrlnfNa@tBi@vCERCLAH]lBIf@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.256687,
+                        "lng" : -79.8690589
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "4.0 km",
+                  "value" : 4025
+               },
+               "duration" : 
+               {
+                  "text" : "10 mins",
+                  "value" : 571
+               },
+               "end_address" : "177 Sherman Ave N, Hamilton, ON L8L 6M8, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.2571768,
+                  "lng" : -79.8358398
+               },
+               "start_address" : "2 King St W, Hamilton, ON L8P 1A1, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.2573349,
+                  "lng" : -79.8713846
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 206
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 41
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2579816,
+                        "lng" : -79.8737677
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eHwy 8\u003c/b\u003e toward \u003cb\u003eSummers Ln\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "iu_gGb{nfNUjAETADCPg@nCYzA]vB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2573349,
+                        "lng" : -79.8713846
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 237
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 69
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.260019,
+                        "lng" : -79.8729273
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBay St N\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ky_gG`jofN}Ae@SG[KUGKEk@Qs@Ua@Mi@Q{@W"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2579816,
+                        "lng" : -79.8737677
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 421
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.25918009999999,
+                        "lng" : -79.8679667
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eYork Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "cf`gGxdofNNu@TeA?Ar@eEDSTuAx@aFL{@@k@?]AUAUS}C"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.260019,
+                        "lng" : -79.8729273
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.3 km",
+                        "value" : 2252
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 265
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2530289,
+                        "lng" : -79.84167579999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eWilson St\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "{``gGxenfNIoA?_A?IBU`@eBNk@bAqEVgA~@yD|AqEl@sAJc@^oBHk@r@qE|@_G|@kFZyBXwBZoB`@mC^gCZwBZkBXsBv@cFr@_F|@qGZoC\\sCf@kIXaE^yEPuBBa@RwBDWb@yCR{A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.25918009999999,
+                        "lng" : -79.8679667
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 514
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 70
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2574362,
+                        "lng" : -79.8397889
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eBirch Ave\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "mz~fGnaifNcBe@mCs@kC_AiJyCiAi@_A["
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2530289,
+                        "lng" : -79.84167579999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 314
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 45
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2564798,
+                        "lng" : -79.8361398
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBarton St E\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "_v_gGtuhfNZkBNgAt@_ETmAZeBLu@\\{B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2574362,
+                        "lng" : -79.8397889
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "81 m",
+                        "value" : 81
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2571768,
+                        "lng" : -79.8358398
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eSherman Ave N\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "_p_gGz~gfNy@Yi@Qg@O"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2564798,
+                        "lng" : -79.8361398
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "3.5 km",
+                  "value" : 3486
+               },
+               "duration" : 
+               {
+                  "text" : "9 mins",
+                  "value" : 520
+               },
+               "end_address" : "1275 Barton St E, Hamilton, ON L8H 2V4, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.2520367,
+                  "lng" : -79.81057439999999
+               },
+               "start_address" : "177 Sherman Ave N, Hamilton, ON L8L 6M8, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.2571768,
+                  "lng" : -79.8358398
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 169
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2586265,
+                        "lng" : -79.83520709999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eSherman Ave N\u003c/b\u003e toward \u003cb\u003eCase St\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "kt_gG~|gfNOGcDgAmBm@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2571768,
+                        "lng" : -79.8358398
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 315
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 58
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2594999,
+                        "lng" : -79.8389085
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePrincess St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "m}_gG`ygfNcA~GaArGU|AQpA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2586265,
+                        "lng" : -79.83520709999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 240
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2574362,
+                        "lng" : -79.8397889
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 3rd cross street onto \u003cb\u003eBirch Ave\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{b`gGdphfNfC|@vDpAzA^"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2594999,
+                        "lng" : -79.8389085
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.5 km",
+                        "value" : 2481
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 339
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.25026099999999,
+                        "lng" : -79.8108209
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003eBarton St E\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "_v_gGtuhfNZkBNgAt@_ETmAZeBLu@\\{Bx@_FVgBX_B^iCHc@~@{Fb@_CT_BTqAZkBT}@n@gDl@kDVqAToAh@aDLw@Ju@XqBr@wEp@qEh@yDRoAt@iEBQHe@F]DYJk@ZyBr@oEp@aEv@kE?MAOHo@Ho@^uC`@{CNoAHm@\\mC@MDYL_Ab@_DVkB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2574362,
+                        "lng" : -79.8397889
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2516381,
+                        "lng" : -79.81026109999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at \u003cb\u003eFrederick Ave\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ci~fGr`cfNgBi@eBg@s@UQG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.25026099999999,
+                        "lng" : -79.8108209
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "55 m",
+                        "value" : 55
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2516289,
+                        "lng" : -79.8109391
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "wq~fGb}bfNC`@@~@B`@?B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2516381,
+                        "lng" : -79.81026109999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "22 m",
+                        "value" : 22
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 5
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2518205,
+                        "lng" : -79.8108955
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "uq~fGjacfNQAKCGA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2516289,
+                        "lng" : -79.8109391
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "19 m",
+                        "value" : 19
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2518259,
+                        "lng" : -79.810665
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{r~fGbacfNAo@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2518205,
+                        "lng" : -79.8108955
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "25 m",
+                        "value" : 25
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 10
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2520367,
+                        "lng" : -79.81057439999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "}r~fGr_cfNi@Q"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2518259,
+                        "lng" : -79.810665
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "5.2 km",
+                  "value" : 5158
+               },
+               "duration" : 
+               {
+                  "text" : "11 mins",
+                  "value" : 676
+               },
+               "end_address" : "75 Centennial Pkwy N, Hamilton, ON L8E 2P2, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.2305937,
+                  "lng" : -79.7683421
+               },
+               "start_address" : "1275 Barton St E, Hamilton, ON L8H 2V4, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.2520367,
+                  "lng" : -79.81057439999999
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "25 m",
+                        "value" : 25
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2518259,
+                        "lng" : -79.810665
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "gt~fG`_cfNh@P"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2520367,
+                        "lng" : -79.81057439999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "19 m",
+                        "value" : 19
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2518205,
+                        "lng" : -79.8108955
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "}r~fGr_cfN@n@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2518259,
+                        "lng" : -79.810665
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "22 m",
+                        "value" : 22
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 9
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2516289,
+                        "lng" : -79.8109391
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{r~fGbacfNF@JBP@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2518205,
+                        "lng" : -79.8108955
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "55 m",
+                        "value" : 55
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 19
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2516381,
+                        "lng" : -79.81026109999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "uq~fGjacfN?CCa@A_ABa@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2516289,
+                        "lng" : -79.8109391
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.25026099999999,
+                        "lng" : -79.8108209
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eBarton St E\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "wq~fGb}bfNPFr@TdBf@fBh@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2516381,
+                        "lng" : -79.81026109999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "3.6 km",
+                        "value" : 3558
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 438
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2390754,
+                        "lng" : -79.77031409999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003eBarton St E\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ci~fGr`cfNJu@D]ZeCr@kFbAoH`@uCFa@d@{Cp@mENcAx@sFj@aEDQj@iDl@uDBKBITqALs@Jm@RkALaAReAHi@VcBPmAJg@Lw@NcAZyBHe@`@yCd@sCHe@n@_Ef@{Dn@{Dj@qDN[p@wEBSR{A?a@hAiIj@cEr@eFR{A^mCRcBDe@\\{CPa@DWNgABUZoC?A?Ah@}Dp@gEl@iETcBFi@Lu@J{@\\}B@CDSBUHYFULWHUJSP[HKV[XYZWVSHGr@m@PMVSFGTSLORWLOJO?AJONYHMBETi@N]Nc@J_@Nu@Lo@@IHk@PsA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.25026099999999,
+                        "lng" : -79.8108209
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 637
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 64
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2335687,
+                        "lng" : -79.7724604
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eNash Rd N\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "gc|fGlc{eNfAXNDzAb@`HpBhAZhHtBbGdB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2390754,
+                        "lng" : -79.77031409999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 416
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 65
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2329009,
+                        "lng" : -79.7674643
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eKentley Dr\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "y`{fGzp{eN\\sCBS@Q?WIgF^oDb@_Ef@}D"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2335687,
+                        "lng" : -79.7724604
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 266
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.2305937,
+                        "lng" : -79.7683421
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eKenora Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "s|zfGrqzeNvGjBnCt@HBVHB?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.2329009,
+                        "lng" : -79.7674643
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "esmgGhfefNgAkF]cBYLFZp@vCp@zCfCjL\\zAl@xB|@~Bv@~AfAnBx@hAbAnAhAdAlB|Ar@l@zA~AfBvBhA|AhCzDpC`ErC`ETNt@jArAtBbDzEnFdIhKzOpHvK~PrVdD~EtFbIjBhC~L`Q`PtUnM~QpBxCpEtGpD`FrEvGvBjCvBdCjF`GrEpFlApA~BxBjAnAjB`CjAjBjA`Cr@|AlDdJ?TDN\\nAb@hB^jCZrELtA@xAIxDK~Aa@nDc@`C[`B{C`PQ^gBzIqAtIsApKKxA?b@D~@Jn@XfAd@|@|@t@dAXl@F|ADjELpBFrAN~@RxAh@bCrAv@b@p@\\~BbA|@j@vAn@x@Zp@HvABx@E`Em@fI}A|LiCpAc@b@CjCk@zBo@dDgAxAq@zAw@|JkGtAw@pDeBjDaBtB_Af@IbBSdCk@fFuATINBZEvA]nCo@h@e@h@s@bBmCnAaC`AkBlBeDvAgDvHeNtEeJbBiDrBsD|CmFpDyGNu@TgAx@yEnAwHL{@@k@As@UsDdFdBxDpApA`@kAlGi@xCg@nCcBtJcDaAmC{@eBi@d@{BnAqHfA}G@iAa@yG?iABU`@eBrA}FvAaG|AqEl@sAj@sC|@}FzBkNt@qF|@}FpB_NjBcMxAaL\\sCf@kIx@{Kn@gHv@uFqFyAkC_AiJyCiAi@_A[j@sDjAmGh@{C\\{By@YqAa@sDoAmBm@cA~GwApJQpAfC|@vDpAzA^j@sDjAmGh@{CvA{IzAuJnCmPZkBT}@|AsIdB{JjCqQ|@iGx@{Eb@iCnAiIhBmKA]R_BzAoLr@uFz@kGmEqAeA]A`BBd@]EGAAo@i@Qh@P@n@F@\\DCe@@aBrGnB`BeMrCcS`AqGdBuLbB}Jr@}DbCoOvA}Jn@yDn@_Ef@{DzAmJN[p@wEVoB?a@hAiI~AiLr@iFXiC\\{CPa@T_B^eDzAiKjC_RLo@Tm@Ti@Zg@p@u@ZWfBwAbA_Al@y@d@w@x@qBZuANy@Z_CvA^pVfHbGdB\\sCDe@I_GbAoJf@}DvGjBxCx@ZH"
+         },
+         "summary" : "Plains Rd E and York Blvd",
+         "warnings" : [],
+         "waypoint_order" : 
+         [
+            0,
+            1,
+            2
+         ]
+      }
+   ],
+   "status" : "OK"
+}
